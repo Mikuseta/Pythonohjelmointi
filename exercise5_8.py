@@ -1,3 +1,5 @@
+# PALAUTE: tämä toimii muuten hyvin, mutta siirtoluvun kysyminen puuttuu. Saat kuitenkin muutaman lisäpisteen tästä
+
 def salaa_sana(sana): #luodaan funktio jossa salataan sana
     tulos = ""
 

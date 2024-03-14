@@ -1,3 +1,5 @@
+# PALAUTE: HYVÄ
+
 import math
 #luodaan muuttujat käyttäjän antamille tiedoille
 summa = int(input("Anna ostosten kokonaissumma: \n"))

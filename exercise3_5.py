@@ -1,3 +1,5 @@
+#PALAUTE: hyvä
+
 pisteet = float(input("Anna pisteet: \n"))
 
 if pisteet >= 0 and pisteet <=50:

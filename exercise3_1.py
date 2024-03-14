@@ -1,3 +1,9 @@
+#PALAUTE: TÄMÄ OHJELMA KYLLÄ TEKEE VERTAILUN, MUTTA EI TOIMI NIIN KUIN PITÄISI
+
+# TÄMÄ OHJLEMA VERTAA MERKKIJONOJA TOISIINSA: LUE LISÄÄ TÄÄLTÄ: https://www.digitalocean.com/community/tutorials/python-string-comparison
+
+# JOS ANNAT EKAN ARVOKSI a ja TOISEN ARVOKSI B, ANTAA SOFTA TULOKSEKSI: Suurempi luku: a
+
 eka = input("Anna ensimäinen luku: ")
 toka = input("Anna toinen luku: ")
 

@@ -18,7 +18,10 @@ if tyypi == "Kirje":
         if luukku == "E":
             print("Lähetyskulut ovat ", kirjeperus+kirjesuuri+2, "€")
         else: print("Lähetyskulut ovat ", kirjeperus+kirjesuuri, "€")
-        
+
+# PALAUTE: vaikka tämä toimii loogisesti oikein  pitäisi tässä käyttää elifiä, koska
+# vertailu tehdään samaan muuttujaan. Molemmat ehdot eivät voi olla yhtä aikaa voimassa
+# joten on parempi käyttää toistensa poissulkevaa ehtolauserakennetta
 if tyypi == "Paketti":
     if paino < 200:
         print("Lähetyskulut ovat ", pakettiperus, "€")

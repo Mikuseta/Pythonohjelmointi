@@ -1,5 +1,6 @@
 pa = 0
 
+# PALAUTE: tässä olisi hyvä käyttää math.pitä
 while True:
     sade = float(input("Anna säde: "))
     pa = sade**2*3.14

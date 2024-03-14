@@ -1,3 +1,12 @@
+
+# PALAUTE: SUOSITTELEN OPETTELEMAAN SELKEÄN NIMEÄMISKÄYTÄNNÖN HETI ALUSTA LÄHTIEN,
+# JOTTA SE TULEE MYÖHEMMIN SELKÄRANGASTA
+# TÄMÄ SOFTA ON TOKI NIIN PIENI, ETTÄ MUUTTUJIEN ARVOT SELVIÄVÄT HELPOSTI
+# MUTTA JOS TEET MUUTTUJAN NIMELTÄ 'kuudes', JOTA KÄYTÄT 200 RIVIÄ ALEMPANA, ET TIEDÄ, MITÄ MUUTTUJAN ON TARKOITUS TEHDÄ
+
+# LISÄKSI: sentit KANNATTAA MUUTTAA INTEGERIKSI KERRAN JA KÄYTTÄÄ SITÄ LOPUISSA LASKUTOIMITUKSISSA
+# TÄSSÄ ON MELKO MONTA YLIMÄÄRÄISTÄ TYYPPIMUUNNOSTA
+
 sentit = input("Anna 1-100 senttiä: ") #otetaan käyttäjä antamat sentit
 eka = int(sentit)//50   #muutetaan annetut sentit kolikoiden määräksi
 tase = int(sentit)%50   #muodostetaan muuttuja joka ottaa huomioon aikaisemmin otetut senttimäärät käyttäjän antamasta määrästä ja jatketaan samalla tavalla kunnes määrä on jaettu kokonaisuudessaan kolikoiksi

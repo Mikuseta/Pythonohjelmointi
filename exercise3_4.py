@@ -1,3 +1,5 @@
+# PALAUTE: HIENOA
+
 raha = int(input("Anna rahaa: \n")) #pyydetään annettu raha
 ostokset = int(input("Ostosten hinta: \n")) #pyydetään ostosten summa
 

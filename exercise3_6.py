@@ -1,3 +1,10 @@
+# PALAUTE: hyvä, tämähän toimii oikein kokonaisluvuilla
+# mutta itse tekisin useamapaa returnia varten
+# yhden muuttujan, jonka arvoa vaihdan vuoden modulon mukaan ja palauttaisin (return) muuttujan vasta lopussa
+# näin koodin kulkua on ehkä hieman helpompi seurata
+# toki tämä ei ole pakollista, mutta suotavaa
+
+
 def karkausvuosi(vuosi):
     if vuosi % 400 == 0:
         return True
@@ -7,6 +14,8 @@ def karkausvuosi(vuosi):
         else:
             return False
 
+
+# miksi teet vuosiluvusta liukuluvun?
 vuosi = float(input("Anna vuosiluku: \n"))
 if (karkausvuosi(vuosi)):
     print("Karkausvuosi: KYLLÄ")

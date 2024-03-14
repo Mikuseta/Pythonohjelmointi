@@ -1,8 +1,14 @@
+print("############ while")
+
+# PALAUTE: a-kohdassa piti aloittaa 1:sta
+
 laskin = 0
 while laskin <= 50:
     print(laskin)
     laskin = laskin + 1
 
+
+print("###############for")
 for numero in range(1, 51):
     print(numero)
 
