@@ -39,6 +39,7 @@ def show_numbered_list(title, data):
 def box_volume(width, height, depth):
     return width * height * depth
 def ball_volume(radius):
+    # PALAUTE: kannattaa käyttää math.pita
     pyoristys = round(4/3 * 3.14 * radius**3, 2)
     return pyoristys
 def pipe_volume(radius, height):
